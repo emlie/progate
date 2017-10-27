@@ -1,7 +1,7 @@
 # ABOUT
 
 TweetApp made by following the Progate lessons
-Rails5 lessons finished: 4/11
+Rails5 lessons finished: 5/11
 
 # README
 
