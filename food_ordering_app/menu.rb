@@ -1,4 +1,7 @@
+require "date"
+
 class Menu
+
   attr_accessor :name
   attr_accessor :price
 
@@ -18,4 +21,14 @@ class Menu
     end
     return total_price
   end
+
+  if count >=1 && Menu.discount_day?
+      total_price -= 1
+    end
+
+  def Menu.discount_day?
+    today = Date.today
+    return today.sunday?
+  end
+  
 end
