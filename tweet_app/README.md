@@ -1,3 +1,8 @@
+# ABOUT
+
+TweetApp made by following the Progate lessons
+Rails5 lessons finished: 4/11
+
 # README
 
 This README would normally document whatever steps are necessary to get the
